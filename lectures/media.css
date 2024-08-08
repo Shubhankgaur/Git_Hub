@@ -1,0 +1,28 @@
+container {max-width: 100%;}
+
+@media screen and (max-width:840px){
+	#main #content {display: block;}
+
+	#container #main #content,
+	#container #main .sidebar {
+		width: 100%;
+		max-width: 100%;
+	}
+}
+
+
+@media screen and (max-width:640px){
+	#footer .widget-footer {
+		display: block;
+		margin: 0 0 10px;
+		width: 100%;
+	}
+}
+
+
+@media screen and (max-width:480px){
+	#header-logo {
+		margin: 0;
+		width: 100%;
+	}
+}
